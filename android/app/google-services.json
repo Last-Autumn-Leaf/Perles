@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "626765239576",
+    "project_id": "perles-a7578",
+    "storage_bucket": "perles-a7578.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:626765239576:android:afc58b4f644fcecabfba6d",
+        "android_client_info": {
+          "package_name": "com.perles"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "626765239576-39svbr5mbhc2mrr81foaricpb16c0oql.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCu7qa9TIaA4ye0qi2Bf9C3bJ-saC2ZkSY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "626765239576-39svbr5mbhc2mrr81foaricpb16c0oql.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
