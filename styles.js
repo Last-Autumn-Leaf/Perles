@@ -3,15 +3,53 @@ import { StyleSheet } from 'react-native';
 
 export const commonStyles = StyleSheet.create({
   container: {
-    flex: 1,
     padding: 20,
+    maxWidth:'95%'
   },
   scrollViewContent: {
     flexDirection: 'column',
     justifyContent: 'center',
-    alignItems:'center'
+    alignItems: 'center',
   },
+  activityContainer: {
+    marginBottom: 16,
+    borderRadius: 8,
+    borderWidth: 1,
+    borderColor: '#000000',
+    padding: 10,
+    flexDirection: 'column',
+  },
+  titleContainer: {
+    marginBottom: 8,
+  },
+  title: {
+    fontSize: 15,
+    fontWeight: 'bold',
+  },
+  detailsContainer: {
+    marginTop: 8,
+    padding:5,
+    maxWidth:'50%',
+  },
+  infoContainer: {
+    flexDirection: 'row',
+    marginBottom: 4,
+    flexWrap: 'wrap',
+  },
+  infoLabel: {
+    fontSize: 10,
+    fontWeight: 'bold',
+    marginRight: 4,
+  },
+  infoText: {
+    fontSize: 10,
+  },
+  description:{
+    fontSize: 10,
+    padding :5
+  }
 });
+
 
 export const screenSearchStyles = StyleSheet.create({
   container: {
